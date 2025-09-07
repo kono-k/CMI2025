@@ -1,0 +1,23 @@
+RAW_DIR : "/content/drive/MyDrive/kaggle/CMI2025"
+PRETRAINED_DIR : "/kaggle/input/cmi2025-dhue-model"
+EXPORT_DIR : "/content/drive/MyDrive/kaggle/CMI2025/models"
+exp_name : "dhue_three_branch_model_046_arg_long_epoch"
+model_name : "ThreeBranchModel"  # "TwoBranchModel" or "ThreeBranchModel"
+scaling: "global"
+EPOCHS : 1000
+BATCH_SIZE : 64
+PAD_PERCENTILE : 100
+maxlen : 100
+LR_INIT : 1e-3
+WD : 3e-3
+PATIENCE : 40
+FOLDS : 5
+random_state : 42
+epochs_warmup : 20
+warmup_lr_init : 1.822126131809773e-05
+lr_min : 3.810323058740104e-09
+k_decay : 1
+p_f_dropout : 0.5
+p_left_right : 0.3
+p_jitter : 0.9844818619033621
+p_moda : 0.3910622476959722
